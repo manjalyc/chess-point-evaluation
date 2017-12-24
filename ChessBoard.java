@@ -51,7 +51,7 @@ public class ChessBoard{
 	
 	public void printBoardView(){
 		for(int i = 0; i < 8; i++){
-			System.out.printf("\n+---+---+---+---+---+---+---+---+\n|");
+			System.out.print("\n+---+---+---+---+---+---+---+---+\n|");
 			for(int j = 0; j < 8; j++){
 				System.out.printf(" %c |",boardView[i][j]);
 			}
